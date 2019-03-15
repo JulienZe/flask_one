@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="wangze@10.10.14.120:22" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="wangze@10.10.14.120:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/wangze/pycharm_project/python_project/Flask_project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
