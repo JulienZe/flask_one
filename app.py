@@ -4,9 +4,12 @@ from flask import request
 from flask import redirect
 from flask import abort
 from flask_script import Manager
+from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 
 app = Flask(__name__)
 manager = Manager(app)
+bootstrap = Bootstrap(app)
 
 
 @app.route('/')

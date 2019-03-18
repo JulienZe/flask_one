@@ -1,0 +1,11 @@
+
+<!--extends 声明这个模版衍生自base.html，head 在基模版的内容不是空，所以使用super（）获取原来的内容-->
+{% extends "base.html" %}
+{% block title %}Index{% endblock %} {% block head %}
+         {{ super() }}
+         <style>
+         </style>
+{% endblock %}
+{% block body %} <h1>Hello, World!</h1> {% endblock %}
+
+
